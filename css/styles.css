@@ -1,0 +1,198 @@
+
+
+body{
+font-family:
+'Dosis', sans-serif;
+text-align: center;}
+
+
+#wrapper{
+max-width:948px;
+margin: 0 auto;
+padding:0 5%;
+
+}
+
+
+img{
+max-width:100%;
+
+}
+
+a{color:#6ab47b;
+text-decoration:none;
+}
+
+header{
+float:left;
+margin:0 0 38px 0;
+padding:5px 0 0 0;
+width:100%;
+box-shadow: 10px 10px 5px #35471F;}
+
+
+#logo{
+text-align:center;
+margin:0;
+}
+
+h1{
+margin:15px 0;
+font-size:1.75em;
+font-weight:normal;
+line-height:0.8em;
+}
+
+/******* 
+Naviagation
+********/
+
+nav{
+text-align:center;
+padding:10px 0;
+margin:20px 0 0;}
+
+nav ul{
+list-style:none;
+margin:0 10px;
+padding:0;
+}
+
+nav li {margin-top: 10px;
+border-left:1px solid #4A635F;
+border-right:1px solid #4A635F;}
+
+nav li:hover{
+	background-color: #4A635F;
+}
+nav a{
+font-weight:800;
+padding:15px 10px;}
+
+/******* 
+Footer 
+********/
+footer{
+font-size:0.75em;
+text-align:center;
+clear:both;
+padding-top:25px;
+margin-top:0px;
+color:#6C795C;
+border-top:1px solid #6C795C;
+}
+.social-icon{
+width:28px;
+height:28px;
+margin:0 5px;
+border-color:#7B6F21; }
+
+
+	.nav2{
+
+float:right;
+font-size:1.125em;
+margin-right:2.5%;
+width:45%;
+display:inline-block;
+text-align:center;
+list-style:none;
+margin-top: 5px;
+background-color: #7B6F21;}
+
+
+
+#logo2{
+float:left;
+margin-left:5%;
+text-align:left;
+width:40%;
+display:inline;}
+
+
+
+
+/******* 
+portfolio gallery 
+********/
+#gallery{
+margin:0;
+padding:0;
+list-style:none;
+text-align:center;
+border-top:1px solid #6C795C;
+}
+
+#gallery li{
+float:left;
+width:100%;
+margin:2.5%;
+background-color:#7B6F21;
+color:#4d4dff;
+}
+#gallery li h3{
+	background-color:#072924;
+	color:white; 
+	box-shadow: 10px 10px 5px #35471F;
+}
+
+#gallery li a p{
+margin:0;
+padding:5%;
+font-size:0.75em;
+}
+#gallery li a p,
+#gallery li p{color:#fff;}
+.contact{
+	margin:0;
+padding:0;
+list-style:none;
+text-align:center;
+border-top:1px solid #ccc;
+}
+/******* 
+color 
+********/
+
+/* site body */
+body{background-color:#7B6F21;
+color:#fff;
+}
+
+/* green header */
+header{
+background:#072924;
+border-color: #6C795C;}
+
+/* logo text */
+h1,h2{color:#fff;}
+
+/* nav background */
+nav{
+background-color: #6C795C;}
+
+nav a, nav a:visited{color:#ccc;}
+
+
+/* selected nav link */
+nav a.selected{
+text-decoration: underline;
+}
+.primary img,
+.secoundary img,
+.tertiary img,
+.fourth img,
+.fifth img,
+.sixth img{box-shadow: 10px 10px 5px #35471F;
+border: 2px solid #35471F;}
+
+.profile-image{
+	box-shadow: 10px 10px 5px #35471F;
+
+}
+/* position */
+.clearfix::after{
+	content: "";
+	display:table;
+	clear:both;
+}

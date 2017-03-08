@@ -1,0 +1,92 @@
+@media screen and (max-width: 768px) {
+.none{
+	display:none;
+}
+
+}
+
+
+
+
+
+/*tablet device*/
+
+@media screen and (min-width: 768px) {
+	/*header*/
+	#logo{
+		text-align:center;
+	}
+	nav li{
+		display:inline;
+		margin-left:20px;}
+
+
+.profile-image{float:right;
+width:35%;
+margin-left: 1.5%}
+#text{
+	float:left;
+	width: 35%;
+}
+
+#about{border-bottom:1px solid #ccc;}
+
+.col{
+float:left;}
+
+.primary,
+.secoundary,
+.tertiary,
+.fourth,
+.fifth,
+.sixth{
+width:45%;
+margin-left:2.5%;}
+
+.nav2{
+	display:inline-block;
+}
+	}
+
+
+
+
+
+
+
+
+
+	/*large screen device*/
+@media only screen and (min-width: 1140px) {
+	nav{
+background:none;
+float:right;
+font-size:1.125em;
+margin-right:5%;
+text-align:right;
+width:45%;
+}
+
+
+
+#logo{
+float:left;
+margin-left:5%;
+text-align:left;
+width:45%;}
+
+
+
+.col{
+float:left;}
+
+.primary,
+.secoundary,
+.tertiary,
+.fourth,
+.fifth,
+.sixth{
+width:30.8333%;
+margin-left:2.5%;}
+
+}
