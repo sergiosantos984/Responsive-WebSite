@@ -1,13 +1,3 @@
-@media screen and (max-width: 768px) {
-.none{
-	display:none;
-}
-
-}
-
-
-
-
 
 /*tablet device*/
 
@@ -50,6 +40,11 @@
 .nav2{
 	display:inline-block;
 }
+	
+.inMobile{
+	display:none;
+}
+
 	}
 
 
