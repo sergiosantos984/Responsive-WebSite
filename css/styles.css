@@ -165,7 +165,9 @@ border: 2px solid #35471F;}
 .gallery li:last-child {
   padding-bottom: 3rem;
 }
-
+'gallery ul{
+	padding-left:0;
+	}
 
 .contact{
 	margin:0;
@@ -180,6 +182,34 @@ font-size:0.75em;
 	list-style: none;
 	display:inline-block;
 }
+
+
+
+/****************
+skills section
+******************/
+
+
+
+
+
+.skills{
+		margin:0;
+padding:5%;
+list-style:none;
+text-align:center;
+font-size:1em;
+background-color:#6C795C;
+color:#072924;
+border:1px solid #072924;
+}
+
+.skills h3{
+	color:#072924;
+}
+
+
+
 
 
 
