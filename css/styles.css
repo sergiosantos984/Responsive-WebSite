@@ -1,258 +1,284 @@
-
-
-body{
-font-family:
-'Dosis', sans-serif;
-text-align: center;}
-
-
-#wrapper{
-width:90%;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
+body {
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
 }
 
-
-img{
-max-width:100%;
-
+#wrapper {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
-a{color:#6ab47b;
-text-decoration:none;
-}
-h3{
-	color:#6ab47b;
+img {
+	max-width: 100%;
 }
 
-header{
-float:left;
-margin:0 0 38px 0;
-padding:5px 0 0 0;
-width:100%;
-box-shadow: 10px 10px 5px #35471F;}
-
-
-#logo{
-text-align:center;
-margin:0;
+a {
+	color: #6ab47b;
+	text-decoration: none;
 }
 
-h1{
-margin:15px 0;
-font-size:1.75em;
-font-weight:normal;
-line-height:0.8em;
+h3 {
+	color: #6ab47b;
 }
+
+header {
+	float: left;
+	margin: 0 0 38px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	box-shadow: 10px 10px 5px #35471F;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
 
 /******* 
 Naviagation
 ********/
 
-nav{
-text-align:center;
-padding:10px 0;
-margin:20px 0 0;}
-
-nav ul{
-list-style:none;
-margin:0 10px;
-padding:0;
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
 }
 
-nav li {margin-top: 10px;
-border-left:1px solid #4A635F;
-border-right:1px solid #4A635F;}
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
 
-nav li:hover{
+nav li {
+	margin-top: 10px;
+	border-left: 1px solid #4A635F;
+	border-right: 1px solid #4A635F;
+}
+
+nav li:hover {
 	background-color: #4A635F;
 }
-nav a{
-font-weight:800;
-padding:15px 10px;}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
 
 /******* 
 Footer 
 ********/
-footer{
-font-size:0.75em;
-text-align:center;
-clear:both;
-padding-top:25px;
-margin-top:0px;
-color:#6C795C;
-border-top:2px solid #072924;
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 25px;
+	margin-top: 0px;
+	color: #6C795C;
+	border-top: 2px solid #072924;
 }
-.social-icon{
-width:28px;
-height:28px;
-margin:0 5px;
-border-color:#7B6F21; }
 
+.social-icon {
+	width: 28px;
+	height: 28px;
+	margin: 0 5px;
+	border-color: #7B6F21;
+}
 
-	.nav2{
+.nav2 {
+	float: right;
+	font-size: 1.125em;
+	margin-right: 2.5%;
+	width: 45%;
+	display: inline-block;
+	text-align: center;
+	list-style: none;
+	margin-top: 5px;
+	background-color: #7B6F21;
+	display: none;
+}
 
-float:right;
-font-size:1.125em;
-margin-right:2.5%;
-width:45%;
-display:inline-block;
-text-align:center;
-list-style:none;
-margin-top: 5px;
-background-color: #7B6F21;
-display:none;}
+.inMobile {
+	float: right;
+	font-size: 1.125em;
+	margin-right: 2.5%;
+	width: 45%;
+	display: inline-block;
+	text-align: center;
+	list-style: none;
+	margin-top: 5px;
+	background-color: #7B6F21;
+}
 
-.inMobile{float:right;
-font-size:1.125em;
-margin-right:2.5%;
-width:45%;
-display:inline-block;
-text-align:center;
-list-style:none;
-margin-top: 5px;
-background-color: #7B6F21;}
-
-
-#logo2{
-float:left;
-margin-left:5%;
-text-align:left;
-width:40%;
-display:inline;}
-
-
+#logo2 {
+	float: left;
+	margin-left: 5%;
+	text-align: left;
+	width: 40%;
+	display: inline;
+}
 
 
 /******* 
 portfolio gallery 
 ********/
-.gallery{
-width:100%;
-margin:0;
-padding:0;
-padding-top:5%;
-list-style:none;
+
+.gallery {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	padding-top: 5%;
+	list-style: none;
 }
 
-.gallery li{
-max-width:80%;
-margin-left: auto;
-margin-right: auto;
-margin-top: 3rem;
-padding-left:auto;
-padding-right: auto;
-background-color:#7B6F21;
-color:#4d4dff;
-list-style:none;
+.gallery li {
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3rem;
+	background-color: #7B6F21;
+	color: #4d4dff;
+	list-style: none;
 }
+
 .gallery h3,
 .gallery li h3,
-.contact h3{
-	background-color:#072924;
-	color:white; 
+.contact h3 {
+	background-color: #072924;
+	color: white;
 	box-shadow: 10px 10px 5px #35471F;
 }
 
+.gallery li p {
+	color: #fff;
+}
 
-.gallery li p{color:#fff;}
-
-.gallery img{
+.gallery img {
 	max-width: 100%;
-box-shadow: 10px 10px 5px #35471F;
-border: 2px solid #35471F;}
+	box-shadow: 10px 10px 5px #35471F;
+	border: 2px solid #35471F;
+}
+
 .gallery li:last-child {
-  padding-bottom: 3rem;
-}
-'gallery ul{
-	padding-left:0;
-	}
-
-.contact{
-	margin:0;
-padding:5%;
-list-style:none;
-text-align:center;
-font-size:0.75em;
+	padding-bottom: 3rem;
 }
 
-.contact img{display: inline;}
-.contact li{
+.gallery ul {
+	padding-left: 0;
+}
+
+.contact {
+	margin: 0;
+	padding: 5%;
 	list-style: none;
-	display:inline-block;
+	text-align: center;
+	font-size: 0.75em;
 }
 
+.contact img {
+	display: inline;
+}
+
+.contact li {
+	list-style: none;
+	display: inline-block;
+}
 
 
 /****************
 skills section
 ******************/
 
-
-
-
-
-.skills{
-		margin:0;
-padding:5%;
-list-style:none;
-text-align:center;
-font-size:1em;
-background-color:#6C795C;
-color:#072924;
-border:1px solid #072924;
+.skills {
+	margin: 0;
+	padding: 5%;
+	list-style: none;
+	text-align: center;
+	font-size: 1em;
+	background-color: #6C795C;
+	color: #072924;
+	border: 1px solid #072924;
 }
 
-.skills h3{
-	color:#072924;
+.skills h3 {
+	color: #072924;
 }
-
-
-
-
-
 
 
 /******* 
 color 
 ********/
 
+
 /* site body */
-body{background-color:#7B6F21;
-color:#fff;
+
+body {
+	background-color: #7B6F21;
+	color: #fff;
 }
+
 
 /* green header */
-header{
-background:#072924;
-border-color: #6C795C;}
+
+header {
+	background: #072924;
+	border-color: #6C795C;
+}
+
 
 /* logo text */
-h1,h2{color:#fff;}
+
+h1,
+h2 {
+	color: #fff;
+}
+
 
 /* nav background */
-nav{
-background-color: #6C795C;}
 
-nav a, nav a:visited{color:#ccc;}
-
-.nav2 li a{
-	color:#072924;
+nav {
+	background-color: #6C795C;
 }
+
+nav a,
+nav a:visited {
+	color: #ccc;
+}
+
+.nav2 li a {
+	color: #072924;
+}
+
 
 /* selected nav link */
-nav a.selected{
-text-decoration: underline;
+
+nav a.selected {
+	text-decoration: underline;
 }
 
-#text{color:#fff;}
+#text {
+	color: #fff;
+}
 
-.profile-image{
+.profile-image {
 	box-shadow: 10px 10px 5px #35471F;
-
 }
+
+
 /* position */
-.clearfix{overflow: auto;
-	
-	}
+
+.clearfix {
+	overflow: auto;
+}
